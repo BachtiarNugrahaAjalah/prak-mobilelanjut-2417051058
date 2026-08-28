@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           title: const Text('PRAKTIKUM MOBILE LANJUT'),
         ),
         body: const Center(
-          child: Text('Halo Nama Saya Miqdad Dzakiy Arroyan 👉👈🥺',
+          child: Text('Halo Nama Acuu Miqdad Dzakiy Arroyan 👉👈🥺',
           style: TextStyle(fontSize: 24)
           ),
         ),
