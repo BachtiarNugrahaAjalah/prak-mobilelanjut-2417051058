@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'column_widget.dart';
+import 'row_widget.dart';
+import 'first_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,20 +14,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'PRAKTIKUM MOBILE LANJUT',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('PRAKTIKUM MOBILE LANJUT'),
-        ),
-        body: const Center(
-          child: Text('Halo Nama Acuu Miqdad Dzakiy Arroyan 👉👈🥺',
-          style: TextStyle(fontSize: 24)
-          ),
-        ),
-      ),
+      // home: Scaffold(
+      //   appBar: AppBar(
+      //     title: const Text('PRAKTIKUM MOBILE LANJUT'),
+      //   ),
+      //   body: const Center(
+      //     child: Text('Halo Nama Acuu Miqdad Dzakiy Arroyan 👉👈🥺',
+      //     style: TextStyle(fontSize: 24)
+      //     ),
+      //   ),
+      // ),
+      // home: const ColumnWidget(),
+      // home: const RowWidget(),
+      home: const FirstWidget(),
     );
   }
 }
