@@ -15,7 +15,7 @@ class _DetailPageState extends State<DetailPage> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/videos/bergema_sampai_selamanya.mp4')
+    _controller = VideoPlayerController.asset('assets/videos/roblok.mp4')
       ..initialize().then((_) {
         setState(() {
           _isInitialized = true;
@@ -115,7 +115,7 @@ class _DetailPageState extends State<DetailPage> {
                   const SizedBox(height: 20),
 
                   Text(
-                    args ?? 'Bergema Sampai Selamanya',
+                    args ?? 'Roblok',
                     style: const TextStyle(
                       color: Colors.white,
                       fontFamily: 'Poppins',
