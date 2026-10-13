@@ -1,16 +1,8 @@
-import 'package:flutter/material.dart';
-// import 'column_widget.dart';
-// import 'row_widget.dart';
-// import 'first_widget.dart';
-// import 'form_widget.dart';
-// import 'app_theme.dart';
-// import 'responsive_profile.dart';
-import 'assets_media.dart';
-import 'detail.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+import 'package:flutter/material.dart';
+import 'home_page.dart';
+
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -19,22 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Assets Media & Navigation',
-
       theme: ThemeData(
+        colorSchemeSeed: Colors.indigo,
         useMaterial3: true,
-        fontFamily: 'Poppins',
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF4D63D9),
-        ),
       ),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => const AssetsMediaPage(),
-        '/detail': (context) => const DetailPage()
-      },
-
-      // home: const AssetsMediaPage(),
+      home: const HomePage(),
     );
   }
 }
