@@ -75,7 +75,7 @@ class _ProfileHeader extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              'Miqdat Jakiy Ayoran',
+              'Bachtiar Nugraha',
               style: Theme.of(context).textTheme.headlineSmall,
               textAlign: TextAlign.center,
             )
@@ -105,7 +105,7 @@ class _ProfileInfo extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             Text(
-              'Ilmu Kmputer',
+              'Ilmu Komputer',
               style: Theme.of(context).textTheme.bodyLarge
             ),
             const SizedBox(height: 8),
