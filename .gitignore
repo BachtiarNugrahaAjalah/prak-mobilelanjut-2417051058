@@ -11,6 +11,10 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+assets/videos/
+assets/audios/
+.mp4
+/assets/videos/bergema_sampai_selamanya.mp4
 
 # IntelliJ related
 *.iml
